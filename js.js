@@ -71,7 +71,7 @@ function task3() {
     }
 
     format.call(country, '', ''); // Ukraine
-    format.apply(country, ['', '']); // [Ukraine]
+    format.apply(country, ['[', ']']); // [Ukraine]
     format.call(country.capital, '', ''); // Kyiv
     format.apply(country.capital, ['', '']); // Kyiv
     format.apply(country.capital.name, ['', '']); // undefined
